@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EduApp</string>
+    <string name="facebook_app_id">420606695224004</string>
+    <string name="fb_login_protocol_scheme">fb420606695224004</string>
+</resources>
