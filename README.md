@@ -1,3 +1,6 @@
 # EduApp
-This is a React Native Project using Firebase for Back end and Push notifications
-It also has a Native Module for reference.
+This is a React Native Project consisting :
+
+-> Firebase for Back End
+-> Push Notofications using Firebase
+-> Native Module sample code for reference.
