@@ -26,9 +26,13 @@ import {
 import {AsyncStorage} from 'react-native';
 import firebase from 'react-native-firebase';
 import HomeScreen from './HomeScreen';
+import {NativeModules} from 'react-native';
 
 export default class App extends Component {
   async componentDidMount() {
+    NativeModules.Device.getDeviceName((err, name) => {
+      alert(err + ' :: ' + name);
+    });
     this.checkPermission();
   }
 
